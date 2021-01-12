@@ -6,6 +6,7 @@ import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
 import {BellFill, EnvelopeFill, PersonCircle, Search} from "react-bootstrap-icons";
 import './navbar.css';
+import avatar from '../../assets/avatar.jpg';
 
 const nav = props => {
 
@@ -28,10 +29,10 @@ const nav = props => {
                                 className="sidebarIcon"/></Nav.Link>
                         <Nav.Link>
                             <EnvelopeFill size={20}
-                                className="sidebarIcon"/></Nav.Link> 
-                        <Nav.Link>
-                            <PersonCircle size={20}
                                 className="sidebarIcon"/></Nav.Link>
+                        <Nav.Link className="avatarLink">
+                            <img className="avatar-user" src={avatar} alt="User"  aria-hidden="true"  height="30" width="30"/>
+                        </Nav.Link>
 
                     </Nav>
                 </Navbar.Collapse>
