@@ -1,0 +1,52 @@
+
+html {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+body {
+  margin: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  width: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.maxHeight{
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  width: 100%;
+  padding-right: 0px !important;
+}
+.custombgcolor {
+  background-color: #03989E;
+}
+
+#root {
+  height: 100% !important;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  width: 100%;
+  
+}
+
+.displayFlex {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  width: 100%;
+}
+.btn-info {
+  color: #fff;
+  background-color: #03989E !important;
+  border-color: #03989E !important;
+}

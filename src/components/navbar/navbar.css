@@ -1,0 +1,4 @@
+.csnavbar {
+    display: flex;
+    flex-direction: row;
+}

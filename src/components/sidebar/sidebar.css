@@ -1,0 +1,67 @@
+.sidebar {
+    top : 0;
+    bottom : 0;
+    left : 0;
+    height: 100%;
+    z-index : 100;
+    padding : 48 px 0 0;
+  
+    box-shadow : inset - 1 px 0 0 rgba(0, 0, 0, .1);
+}
+#sidebar-wrapper {
+    min-height : 100 vh !important;
+    padding: 0px;
+    width : 100 vw;
+    margin-left : -1 rem;
+    -webkit-transition : margin .25 s ease - out;
+    -moz-transition : margin .25 s ease - out;
+    -o-transition : margin .25 s ease - out;
+    transition : margin .25 s ease - out;
+}
+#sidebar-wrapper a {
+    color : #f8f9fa;
+}
+#sidebar-wrapper.sidebar-heading {
+    padding : 0.875 rem 1.25 rem;
+    font-size : 1.2 rem;
+};
+
+#page-content-wrapper {
+    min-width : 0;
+    width : 100%;
+}
+
+.customNavLinkColor {
+    color: white !important;
+}
+.sidebarIcon {
+    margin-bottom: 5px;
+}
+.sidebarText {
+    margin:4px;
+}
+.dropdown-item  {
+    color: black !important;
+}
+.appName {
+    padding-top: 8px;
+}
+
+.VMDropdownMenu {
+    width: 100%;
+    margin-left: 10px !important;
+}
+
+.navBarHeading {
+    padding-left: 6px;
+    font-weight: bold;
+    color: #dae0e5;
+}
+
+.nav-link.active{
+    color: blue !important;
+}
+
+.VehicleContainer {
+    margin-left: 10px;
+}
